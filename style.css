@@ -1,0 +1,45 @@
+:root {
+  --border-style: 5px solid white;
+}
+
+body {
+  background-color: #000;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 800px;
+  height: 80%;
+  margin: 100px auto;
+}
+
+span {
+  color: #fff;
+  font-size: 160px;
+}
+
+h1 {
+  text-align: center;
+}
+
+td {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.horizontal {
+  border-bottom: var(--border-style);
+}
+
+.vertical {
+  border-left: var(--border-style);
+  border-right: var(--border-style);
+}
+
+.top {
+  border-top: var(--border-style);
+}
+
