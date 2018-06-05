@@ -2,6 +2,10 @@
   --border-style: 5px solid white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #000;
   box-sizing: border-box;
@@ -10,13 +14,13 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .container {
   width: 600px;
   height: 600px;
-  margin: auto;
-  margin-top: 80px;
+  margin: 50px auto;
   text-align: center;
 }
 
