@@ -16,12 +16,8 @@ body {
   padding: 0;
 }
 
-.container {
-  text-align: center;
-  margin: 0 auto;
-}
 
-.ticTacBoard{
+.container{
   width: 600px;
   height: 600px;
   margin: 50px auto;
