@@ -7,17 +7,31 @@ body {
   box-sizing: border-box;
   font-family: 'Muli', sans-serif;
   font-weight: 600;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .container {
-  max-width: 800px;
-  height: 80%;
-  margin: 100px auto;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.score {
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 span {
   color: #fff;
-  font-size: 160px;
+  font-size: 110px;
 }
 
 h1 {
@@ -25,9 +39,10 @@ h1 {
 }
 
 td {
-  width: 200px;
-  height: 200px;
+  width: 25%;;
+  height: 150px;
   text-align: center;
+  cursor: pointer;
 }
 
 .horizontal {
@@ -43,3 +58,6 @@ td {
   border-top: var(--border-style);
 }
 
+.score {
+  margin: 0 20px;;
+}
